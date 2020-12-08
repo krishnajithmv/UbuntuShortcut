@@ -1,7 +1,7 @@
 import os
 
 name = input("nome do atalho?\n")
-path = "/home/dcr/.local/share/applications/" + name + ".desktop"
+path = "~/home/" + name + ".desktop"
 print(name)
 f = open(path, "w")
 f.write("[Desktop Entry]\n")
